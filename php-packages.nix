@@ -19,7 +19,7 @@ composerEnv.buildPackage {
   inherit packages devPackages noDev;
   name = "svanderburg-composer2nix";
   src = composerEnv.filterSrc ./.;
-  executable = true;
+  executable = false;
   symlinkDependencies = false;
   meta = {
     license = "MIT";

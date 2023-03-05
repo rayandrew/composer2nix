@@ -4,20 +4,21 @@
   "type": "library",
   "license": "MIT",
   "authors": [
-      {
-          "name": "Sander van der Burg",
-          "email": "svanderburg@gmail.com",
-          "homepage": "http://sandervanderburg.nl"
-      }
+    {
+      "name": "Sander van der Burg",
+      "email": "svanderburg@gmail.com",
+      "homepage": "http://sandervanderburg.nl"
+    }
   ],
-
   "require": {
-      "svanderburg/pndp": "0.0.4"
+    "svanderburg/pndp": "0.0.4"
   },
-
   "autoload": {
-      "psr-4": { "Composer2Nix\\": "src/Composer2Nix" }
+    "psr-4": {
+      "Composer2Nix\\": "Composer2Nix"
+    }
   },
-
-  "bin": [ "bin/composer2nix" ]
+  "bin": [
+    "bin/composer2nix"
+  ]
 }
