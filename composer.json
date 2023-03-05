@@ -15,7 +15,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Composer2Nix\\": "Composer2Nix"
+      "Composer2Nix\\": "src/Composer2Nix"
     }
   },
   "bin": [
